@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Tomato</title>
+<style>
+body{
+margin: 20px;
+background-color: #f777ca;
+}
+.title{
+text-align: center;
+font-size: 35px;
+
+}
+.container{
+
+margin-inline: 35%;
+height: 80%;
+position: absolute;
+background: transparent;
+border-radius: 10px;
+
+}
+.container img{
+max-height: 100%;
+max-width: 100%;
+border-radius: 10px;
+cursor: pointer;      
+}
+.container img:hover{
+  transform: translateY(3px);
+}
+.container p{
+text-align: left;
+margin-left: 3px;
+font-size: 20px;
+}
+.container button{
+
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align:center;
+  border-radius: 10px;
+  margin-top: 13px;
+  background-color: #b51fb5;
+  color: white;
+  
+}
+.container button:hover{
+transform: translateX(-5px);
+}
+
+</style>
+<head>
+<body>
+<p class="title">Order summay</p>
+<div class="container">
+<img src="bitterguard.jpg">
+<p>Bitterguord 1kg = 50Rs<br>
+Expected delivery by sunday<br>
+Availability: In stock<br>
+Shipping charges: 40Rs</p>
+<hr>
+<p>rating: 4/5 reviews(210)</p>
+<!--<form action="www.google.com">
+<input type="button" value="Confirm Order"/>
+</form>-->
+<button onclick="window.location.href='index.html';" target="parent">Confirm Order</button>
+</div>
+
+</body>
+</html>
